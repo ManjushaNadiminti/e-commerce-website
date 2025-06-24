@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NutriNuts - Premium Dry Fruits & Nutritional Ingredients</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>NutriNuts</h1>
+                <p>Premium Dry Fruits & Seeds</p>
+            </div>
+            <nav>
+                <div class="hamburger">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#benefits">Benefits</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#nutrition">Nutrition Facts</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Natural Nutrition in Every Bite</h1>
+                <p>Discover the incredible health benefits of premium quality dry fruits and seeds, packed with essential nutrients for a healthier you.</p>
+                <div class="hero-buttons">
+                    <a href="#products" class="btn primary">Shop Now</a>
+                    <a href="#nutrition" class="btn secondary">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="benefits" class="benefits">
+        <div class="container">
+            <div class="section-header">
+                <h2>Nature's Nutritional Powerhouses</h2>
+                <p>Dry fruits and seeds are concentrated sources of vitamins, minerals, and antioxidants</p>
+            </div>
+            <div class="benefit-cards">
+                <div class="benefit-card">
+                    <div class="benefit-icon">❤️</div>
+                    <h3>Heart Health</h3>
+                    <p>Rich in healthy fats that reduce bad cholesterol and improve heart function</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">💪</div>
+                    <h3>Energy Boost</h3>
+                    <p>Natural sugars and proteins provide sustained energy throughout the day</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">🧠</div>
+                    <h3>Brain Function</h3>
+                    <p>Omega-3 fatty acids support cognitive function and mental clarity</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">🦴</div>
+                    <h3>Bone Strength</h3>
+                    <p>Calcium, magnesium and phosphorus support skeletal health</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="products" class="products">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Premium Selection</h2>
+                <p>Carefully sourced and processed to preserve maximum nutritional benefits</p>
+            </div>
+            <div class="product-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="nuts">Nuts</button>
+                <button class="filter-btn" data-filter="dried-fruits">Dried Fruits</button>
+                <button class="filter-btn" data-filter="seeds">Seeds</button>
+                <button class="filter-btn" data-filter="mixes">Mixes</button>
+            </div>
+            <div class="product-grid">
+                <!-- Nuts -->
+                <div class="product-card" data-category="nuts">
+                    <div class="product-image">
+                        <img src="https://api.a0.dev/assets/image?text=Premium%20Almonds&aspect=1:1" alt="Almonds">
+                    </div>
+                    <div class="product-info">
+                        <h3>Premium Almonds</h3>
+                        <p>Rich in vitamin E, magnesium and healthy fats</p>
+                        <div class="product-price">₹450 <span>/ 250g</span></div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card" data-category="nuts">
+                    <div class="product-image">
+                        <img src="https://api.a0.dev/assets/image?text=Organic%20Walnuts&aspect=1:1" alt="Walnuts">
+                    </div>
+                    <div class="product-info">
+                        <h3>Organic Walnuts</h3>
+                        <p>Packed with omega-3 fatty acids and antioxidants</p>
+                        <div class="product-price">₹625 <span>/ 250g</span></div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card" data-category="nuts">
+                    <div class="product-image">
+                        <img src="https://api.a0.dev/assets/image?text=Cashew%20Nuts&aspect=1:1" alt="Cashew Nuts">
+                    </div>
+                    <div class="product-info">
+                        <h3>Premium Cashews</h3>
+                        <p>Excellent source of copper, magnesium and healthy monounsaturated fats</p>
+                        <div class="product-price">₹575 <span>/ 250g</span></div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card" data-category="nuts">
+                    <div class="product-image">
+                        <img src="https://api.a0.dev/assets/image?text=Pine%20Nuts&aspect=1:1" alt="Pine Nuts">
+                    </div>
+                    <div class="product-info">
+                        <h3>Himalayan Pine Nuts</h3>
+                        <p>Rich in protein and a good source of magnesium and vitamin E</p>
+                        <div class="product-price">₹1,250 <span>/ 250g</span></div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card" data-category="nuts">
+                    <div class="product-image">
+                        <img src="https://api.a0.dev/assets/image?text=Pistachios&aspect=1:1" alt="Pistachios">
+                    </div>
+                    <div class="product-info">
+                        <h3>Roasted Pistachios</h3>
+                        <p>High in protein, fiber and antioxidants</p>
+                        <div class="product-price">₹750 <span>/ 250g</span></div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                
+                <!-- Dried Fruits -->
+                <div class="product-card" data-category="dried-fruits">
+                    <div class="product-image">
+                        <img src="https://api.a0.dev/assets/image?text=Dried%20Cranberries&aspect=1:1" alt="Dried Cranberries">
+                    </div>
+                    <div class="product-info">
+                        <h3>Organic Cranberries</h3>
+                        <p>Rich in antioxidants and vitamin C</p>
+                        <div class="product-price">₹385 <span>/ 250g</span></div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card" data-category="dried-fruits">
+                    <div class="product-image">
+                        <img src="https://api.a0.dev/assets/image?text=Premium%20Raisins&aspect=1:1" alt="Raisins">
+                    </div>
+                    <div class="product-info">
+                        <h3>Golden Raisins</h3>
+                        <p>Natural source of energy with iron and potassium</p>
+                        <div class="product-price">₹190 <span>/ 250g</span></div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card" data-category="dried-fruits">
+                    <div class="product-image">
+                        <img src="https://api.a0.dev/assets/image?text=Medjool%20Dates&aspect=1:1" alt="Medjool Dates">
+                    </div>
+                    <div class="product-info">
+                        <h3>Medjool Dates</h3>
+                        <p>Nature's caramel, rich in fiber and potassium</p>
+                        <div class="product-price">₹495 <span>/ 250g</span></div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card" data-category="dried-fruits">
+                    <div class="product-image">
+                        <img src="https://api.a0.dev/assets/image?text=Dried%20Apricots&aspect=1:1" alt="Dried Apricots">
+                    </div>
+                    <div class="product-info">
+                        <h3>Turkish Apricots</h3>
+                        <p>High in vitamin A and fiber, supports eye health</p>
+                        <div class="product-price">₹340 <span>/ 250g</span></div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card" data-category="dried-fruits">
+                    <div class="product-image">
+                        <img src="https://api.a0.dev/assets/image?text=Dried%20Figs&aspect=1:1" alt="Dried Figs">
+                    </div>
+                    <div class="product-info">
+                        <h3>Premium Dried Figs</h3>
+                        <p>Excellent source of fiber, calcium and antioxidants</p>
+                        <div class="product-price">₹425 <span>/ 250g</span></div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                
+                <!-- Seeds -->
+                <div class="product-card" data-category="seeds">
+                    <div class="product-image">
+                        <img src="https://api.a0.dev/assets/image?text=Chia%20Seeds&aspect=1:1" alt="Chia Seeds">
+                    </div>
+                    <div class="product-info">
+                        <h3>Organic Chia Seeds</h3>
+                        <p>Rich in omega-3 fatty acids, protein and fiber</p>
+                        <div class="product-price">₹370 <span>/ 250g</span></div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card" data-category="seeds">
+                    <div class="product-image">
+                        <img src="https://api.a0.dev/assets/image?text=Pumpkin%20Seeds&aspect=1:1" alt="Pumpkin Seeds">
+                    </div>
+                    <div class="product-info">
+                        <h3>Roasted Pumpkin Seeds</h3>
+                        <p>High in magnesium, iron and zinc</p>
+                        <div class="product-price">₹310 <span>/ 250g</span></div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card" data-category="seeds">
+                    <div class="product-image">
+                        <img src="https://api.a0.dev/assets/image?text=Flax%20Seeds&aspect=1:1" alt="Flax Seeds">
+                    </div>
+                    <div class="product-info">
+                        <h3>Golden Flax Seeds</h3>
+                        <p>Rich in omega-3s and lignans for heart health</p>
+                        <div class="product-price">₹260 <span>/ 250g</span></div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card" data-category="seeds">
+                    <div class="product-image">
+                        <img src="https://api.a0.dev/assets/image?text=Sunflower%20Seeds&aspect=1:1" alt="Sunflower Seeds">
+                    </div>
+                    <div class="product-info">
+                        <h3>Sunflower Seeds</h3>
+                        <p>Excellent source of vitamin E and selenium</p>
+                        <div class="product-price">₹220 <span>/ 250g</span></div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card" data-category="seeds">
+                    <div class="product-image">
+                        <img src="https://api.a0.dev/assets/image?text=Sesame%20Seeds&aspect=1:1" alt="Sesame Seeds">
+                    </div>
+                    <div class="product-info">
+                        <h3>Organic Sesame Seeds</h3>
+                        <p>Rich in calcium and supports bone health</p>
+                        <div class="product-price">₹195 <span>/ 250g</span></div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                
+                <!-- Mixes -->
+                <div class="product-card" data-category="mixes">
+                    <div class="product-image">
+                        <img src="https://api.a0.dev/assets/image?text=Trail%20Mix&aspect=1:1" alt="Trail Mix">
+                    </div>
+                    <div class="product-info">
+                        <h3>Energy Trail Mix</h3>
+                        <p>Perfect blend of nuts, seeds and dried fruits</p>
+                        <div class="product-price">₹520 <span>/ 250g</span></div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card" data-category="mixes">
+                    <div class="product-image">
+                        <img src="https://api.a0.dev/assets/image?text=Protein%20Mix&aspect=1:1" alt="Protein Mix">
+                    </div>
+                    <div class="product-info">
+                        <h3>Protein Power Mix</h3>
+                        <p>High-protein blend with almonds, cashews and seeds</p>
+                        <div class="product-price">₹650 <span>/ 250g</span></div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card" data-category="mixes">
+                    <div class="product-image">
+                        <img src="https://api.a0.dev/assets/image?text=Festive%20Mix&aspect=1:1" alt="Festive Mix">
+                    </div>
+                    <div class="product-info">
+                        <h3>Festive Dry Fruit Mix</h3>
+                        <p>Premium assortment of dry fruits and nuts</p>
+                        <div class="product-price">₹725 <span>/ 250g</span></div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card" data-category="mixes">
+                    <div class="product-image">
+                        <img src="https://api.a0.dev/assets/image?text=Immunity%20Boost&aspect=1:1" alt="Immunity Boost Mix">
+                    </div>
+                    <div class="product-info">
+                        <h3>Immunity Boost Mix</h3>
+                        <p>Special blend with goji berries and vitamin-rich ingredients</p>
+                        <div class="product-price">₹590 <span>/ 250g</span></div>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="nutrition" class="nutrition-facts">
+        <div class="container">
+            <div class="section-header">
+                <h2>Nutritional Benefits</h2>
+                <p>Compare the nutritional profiles of our premium dry fruits and seeds</p>
+            </div>
+            <div class="nutrition-table-wrapper">
+                <table class="nutrition-table">
+                    <thead>
+                        <tr>
+                            <th>Dry Fruit/Seed</th>
+                            <th>Protein (g/100g)</th>
+                            <th>Fiber (g/100g)</th>
+                            <th>Key Minerals</th>
+                            <th>Key Vitamins</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Almonds</td>
+                            <td>21.2</td>
+                            <td>12.5</td>
+                            <td>Magnesium, Calcium</td>
+                            <td>Vitamin E, B2</td>
+                        </tr>
+                        <tr>
+                            <td>Walnuts</td>
+                            <td>15.2</td>
+                            <td>6.7</td>
+                            <td>Copper, Manganese</td>
+                            <td>Vitamin B6, Folate</td>
+                        </tr>
+                        <tr>
+                            <td>Cashews</td>
+                            <td>18.2</td>
+                            <td>3.3</td>
+                            <td>Copper, Magnesium</td>
+                            <td>Vitamin K, B6</td>
+                        </tr>
+                        <tr>
+                            <td>Pistachios</td>
+                            <td>20.2</td>
+                            <td>10.6</td>
+                            <td>Phosphorus, Potassium</td>
+                            <td>Vitamin B6, Thiamin</td>
+                        </tr>
+                        <tr>
+                            <td>Chia Seeds</td>
+                            <td>16.5</td>
+                            <td>34.4</td>
+                            <td>Calcium, Phosphorus</td>
+                            <td>Thiamin, Niacin</td>
+                        </tr>
+                        <tr>
+                            <td>Flax Seeds</td>
+                            <td>18.3</td>
+                            <td>27.3</td>
+                            <td>Magnesium, Phosphorus</td>
+                            <td>Thiamin, B6</td>
+                        </tr>
+                        <tr>
+                            <td>Dates</td>
+                            <td>2.5</td>
+                            <td>8.0</td>
+                            <td>Potassium, Magnesium</td>
+                            <td>Vitamin B6, Niacin</td>
+                        </tr>
+                        <tr>
+                            <td>Dried Apricots</td>
+                            <td>3.4</td>
+                            <td>7.3</td>
+                            <td>Potassium, Iron</td>
+                            <td>Vitamin A, E</td>
+                        </tr>
+                        <tr>
+                            <td>Dried Figs</td>
+                            <td>3.3</td>
+                            <td>9.8</td>
+                            <td>Calcium, Potassium</td>
+                            <td>Vitamin K, B6</td>
+                        </tr>
+                        <tr>
+                            <td>Pumpkin Seeds</td>
+                            <td>30.2</td>
+                            <td>6.5</td>
+                            <td>Zinc, Magnesium</td>
+                            <td>Vitamin K, Folate</td>
+                        </tr>
+                        <tr>
+                            <td>Sunflower Seeds</td>
+                            <td>21.0</td>
+                            <td>8.6</td>
+                            <td>Selenium, Magnesium</td>
+                            <td>Vitamin E, B1</td>
+                        </tr>
+                        <tr>
+                            <td>Sesame Seeds</td>
+                            <td>17.7</td>
+                            <td>11.8</td>
+                            <td>Calcium, Iron</td>
+                            <td>Vitamin B1, Zinc</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>What Our Customers Say</h2>
+                <p>Join thousands of satisfied customers enjoying premium dry fruits</p>
+            </div>
+            <div class="testimonial-slider">
+                <div class="testimonial-slide active">
+                    <div class="testimonial-content">
+                        <div class="testimonial-image">
+                            <img src="https://api.a0.dev/assets/image?text=Person1&aspect=1:1" alt="Customer">
+                        </div>
+                        <p class="quote">"I've been ordering NutriNuts products for over a year now. The quality is consistently excellent, and I love how they focus on the nutritional benefits. My morning porridge with their nut mix has become an essential part of my day!"</p>
+                        <div class="customer-info">
+                            <h4>Priya Sharma</h4>
+                            <p>Nutritionist, Delhi</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <div class="testimonial-image">
+                            <img src="https://api.a0.dev/assets/image?text=Person2&aspect=1:1" alt="Customer">
+                        </div>
+                        <p class="quote">"The Immunity Boost Mix is fantastic! My family loves it, and I've noticed we've all stayed healthier this winter. The freshness and quality are unmatched compared to store-bought options."</p>
+                        <div class="customer-info">
+                            <h4>Rajiv Patel</h4>
+                            <p>Engineer, Mumbai</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <div class="testimonial-image">
+                            <img src="https://api.a0.dev/assets/image?text=Person3&aspect=1:1" alt="Customer">
+                        </div>
+                        <p class="quote">"As a fitness trainer, I recommend NutriNuts to all my clients. Their protein mix is the perfect post-workout snack - natural, clean energy without any artificial additives. Just pure goodness from nature!"</p>
+                        <div class="customer-info">
+                            <h4>Ananya Desai</h4>
+                            <p>Fitness Trainer, Bangalore</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-dots">
+                <span class="dot active" data-slide="0"></span>
+                <span class="dot" data-slide="1"></span>
+                <span class="dot" data-slide="2"></span>
+            </div>
+        </div>
+    </section>
+    
+    <section class="newsletter">
+        <div class="container">
+            <div class="newsletter-content">
+                <h2>Get Nutrition Tips & Special Offers</h2>
+                <p>Subscribe to our newsletter for healthy recipes, special discounts, and the latest nutritional information</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Your email address" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Start Your Nutritional Journey Today</h2>
+                <p>Experience the natural goodness of premium dry fruits and seeds</p>
+                <div class="cta-buttons">
+                    <a href="#products" class="btn primary">Shop Now</a>
+                    <a href="#contact" class="btn secondary">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>NutriNuts</h3>
+                    <p>Premium quality dry fruits and seeds with maximum nutritional value. Sourced directly from the finest farms across India.</p>
+                </div>
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#benefits">Benefits</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#nutrition">Nutrition Facts</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Products</h3>
+                    <ul>
+                        <li><a href="#products">Nuts</a></li>
+                        <li><a href="#products">Dried Fruits</a></li>
+                        <li><a href="#products">Seeds</a></li>
+                        <li><a href="#products">Trail Mixes</a></li>
+                        <li><a href="#products">Gift Packs</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Contact Us</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Nutrition Street, Mumbai, 400001</p>
+                    <p><i class="fas fa-phone"></i> +91 98765 43210</p>
+                    <p><i class="fas fa-envelope"></i> info@nutrinuts.in</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 NutriNuts. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
